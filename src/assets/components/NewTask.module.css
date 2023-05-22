@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:absolute;
+
+    margin-top: -110px;
+
+    left: calc(50% - 736px/2);
+
+    gap: 8px;
+}
+
+
+input {
+    background: var(--gray-500);
+    width: 638px;
+    height: 54px;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+}
+
+input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--gray-300);
+    padding-left: 1rem;
+}
+
+button {
+    background: var(--blue-dark);
+    border-radius: 8px;
+    border: var(--blue-dark);
+    color: var(--white);
+    width: 90px;
+    height: 52px;
+    content: \F4FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+button svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+
+}
+
+button:hover {
+    background: var(--blue);
+    transition: 0.1s;
+}

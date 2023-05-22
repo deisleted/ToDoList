@@ -1,0 +1,32 @@
+.creted {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+    margin-top: 79px;
+    padding-bottom: 24px;
+
+}
+
+aside span {
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 0.875rem;
+
+}
+
+aside label {
+    background: var(--gray-400);
+    border-radius: 999px;
+    color: var(--white);
+    padding: 2px 8px;
+
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 15px;
+
+}
