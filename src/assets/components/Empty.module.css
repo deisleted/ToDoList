@@ -20,7 +20,7 @@
 }
 
 .labes {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-content: center;
     justify-items: center;
@@ -48,7 +48,7 @@
 }
 
 .newTask {
-    display: none;
+    display: flex;
     flex-direction: row;
     align-items: center;
     background: var(--gray-500);
